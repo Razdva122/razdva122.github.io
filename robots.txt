@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://razdva122.github.io/clean-your-tv-lg-webos/sitemap.xml
