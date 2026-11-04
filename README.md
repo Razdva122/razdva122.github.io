@@ -9,8 +9,8 @@ Publish directly from the main branch root through GitHub Pages. Keep verificati
 ## Initial setup — 2026-11-04
 
 - GitHub Pages serves this host from `main` at `/`; the existing project documentation URL is unchanged.
-- Google Search Console verified both the host and documentation URL-prefix properties. The existing 72-URL sitemap was submitted. Its first processing showed "Could not fetch/read" without a detailed reason; HTTP retrieval and XML parsing succeed. An indexing request for the English documentation home was accepted. Submission is not proof of indexing.
-- Bing Webmaster Tools verified the host and accepted the existing sitemap; processing is pending.
+- Google Search Console verified both the host and documentation URL-prefix properties. The existing 72-URL sitemap was submitted. Its first processing showed "Could not fetch/read" without a detailed reason; HTTP retrieval and XML parsing succeed. Indexing requests for the English documentation home and Russian installation guide were accepted. Submission is not proof of indexing.
+- Bing Webmaster Tools verified the host and successfully processed the existing sitemap: 72 URLs discovered, no errors or warnings.
 - Yandex Webmaster verified the host. Its Sitemap tool is currently read-only, so manual sitemap submission is unavailable. The host robots.txt advertises the existing sitemap. A direct IndexNow POST to Yandex with 72 documentation URLs returned HTTP 202 and `success: true`; ownership-key validation and crawling are pending.
 - Verified HTTP 200 for the host root, robots.txt, Google verification file, IndexNow ownership file, existing documentation root and sitemap. The sitemap has 72 unique URLs across 12 languages.
 
